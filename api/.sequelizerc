@@ -1,0 +1,10 @@
+const path = require('path');
+
+const schema = path.resolve(__dirname, 'src/schema');
+
+module.exports = {
+  config: path.join(schema, 'config/config.js'),
+  'models-path': path.join(schema, 'models'),
+  'migrations-path': path.join(schema, 'migrations'),
+  'seeders-path': path.join(schema, 'seeders'),
+};

@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# environment
+.env
+.env.*
+!.env.example
+
+# logs
+npm-debug.log*
+*.log
+
+# test / coverage
+coverage/
+
+# build output
+dist/
+build/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# local docker data
+pgdata/

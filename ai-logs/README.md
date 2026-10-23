@@ -1,13 +1,14 @@
 # AI usage log
 
 This folder documents how AI was used to build this project. The main tool was Claude Code
-(model `claude-opus-5-5`) in a single session, `bd791804-6f34-4b9d-b875-6c9fea11bcc6`.
+(model `claude-opus-5-5`). The main session was `bd791804-6f34-4b9d-b875-6c9fea11bcc6`, and
+three earlier sessions are included too.
 
 It has two kinds of records, kept separate:
 
 1. **Full transcripts** in [`transcripts/`](transcripts/). The assignment (§2) requires these.
-   **Currently missing**: see [`transcripts/README.md`](transcripts/README.md) for what is
-   needed.
+   They are the raw Claude Code session files for every session in this project; see
+   [`transcripts/README.md`](transcripts/README.md).
 2. **Per-step summaries** (`NN-*.md`, below), written during the session. They make the
    transcript easier to review but don't replace it.
 
@@ -52,12 +53,11 @@ and the Playwright scripts that captured them.
 Each step file lists its own items. This is the consolidated, still-open list.
 
 **Needed for the submission**
-- [ ] **Export the full transcript(s)** into `transcripts/` (assignment §2). Check them for
-  personal data first. `DECISIONS.md` §5 already states the history is included here.
-- [ ] **Put the project under git.** The assignment asks for a repository to clone. The
-  directory is currently **not** a git repository, and no commits were made by Claude.
-- [ ] Decide whether the three earlier local sessions (see `transcripts/README.md`) belong to
-  this assignment.
+- [x] **Export the full transcript(s)** into `transcripts/` (assignment §2). Done on
+  2026-10-23, with the account e-mail redacted.
+- [x] **Put the project under git.**
+- [x] Decide whether the three earlier local sessions belong to this assignment. They do and
+  are included.
 
 **Open from the step-06 review**
 - [ ] Playwright e2e (§11.3) doesn't exist; the step-06 prompt asked to run it. Decide whether
